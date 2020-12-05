@@ -38,7 +38,7 @@ pipeline {
     // this image provides everything needed to run Cypress
     docker {
       image 'cypress/base:10'
-      args '-e HOME=/tmp -e NPM_CONFIG_PREFIX=/tmp/.npm
+      args '-e HOME=/tmp -e NPM_CONFIG_PREFIX=/tmp/.npm'
     }
   }
 
